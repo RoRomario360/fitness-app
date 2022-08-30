@@ -124,7 +124,7 @@ body {
     position: static !important;
   }
 
-  .hero-banner-img {
+  .hero__banner {
     display: none;
   }
 
