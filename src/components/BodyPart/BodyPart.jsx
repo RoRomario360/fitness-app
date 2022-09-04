@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack, Typography } from '@mui/material';
 import IconGym from '../../images/icons/gym.png';
 
-export default function BodyPart({ item, setBodyPart, bodyPart }) {
+function BodyPart({ item, setBodyPart, bodyPart }) {
   return (
     <Stack
       type="button"
@@ -23,3 +23,5 @@ export default function BodyPart({ item, setBodyPart, bodyPart }) {
     </Stack>
   );
 }
+
+export default BodyPart;
